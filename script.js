@@ -1,1 +1,1 @@
-console.log(window.document)
+
