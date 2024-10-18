@@ -1,3 +1,28 @@
 body {
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blanchedalmond;
+}
+.navbar {
+    background-color: rgb(191, 191, 204);
+    color: white;
+    padding: 10px;
+}
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 010px;
+    position: relative;
+}
+.note {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    cursor: move;
+    transition: background-color 0.3s;
+}
+.note:hover {
+    background-color: orange;
 }
