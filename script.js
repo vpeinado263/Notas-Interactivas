@@ -9,3 +9,7 @@ function addNote() {
     document.getElementById('board').appendChild(note);
     makeDraggable(note);
 }
+function positionNote(note) {
+    note.style.left = Math.random() * 80 + 'vw';
+    note.style.top = Math.random() * 80 + 'vw';
+}
