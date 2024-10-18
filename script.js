@@ -1,4 +1,4 @@
-document.getElementById('addNoteBtn').addEventListener('click', addNoteBtn);
+document.getElementById('addNoteBtn').addEventListener('click', addNote);
 
 function addNote() {
     const note = document.createElement('div');
