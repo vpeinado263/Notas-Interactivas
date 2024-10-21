@@ -67,3 +67,5 @@ function makeDraggable(note) {
         return false;//Previene que el elemento sea arrastrado como si fuera un archivo o imagen.
     };
 }
+
+console.log(document.body)
