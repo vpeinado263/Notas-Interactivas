@@ -12,3 +12,5 @@ Este proyecto simple me permitió practicar y profundizar en la manipulación de
 - Crear nuevas notas.
 - Editar el contenido de las notas.
 - Mover las notas libremente por el área de trabajo.
+
+Puedes ver el proyecto en vivo aquí: [Creador de Notas](https://notas-interactivas.vercel.app/)
